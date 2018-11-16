@@ -11,7 +11,7 @@ driver = Selenium::WebDriver.for :chrome
 begin
   # Start the test and set the browser's viewport size to 800x600.
   # vps = {width:900, height:600}
-  # vps = {width:1823, height:583}
+  # vps = {width:1823, height:583} ...
   vps = {width:1823, height:700}
   eyes.test(app_name: 'Lux Home Page1e!', test_name: 'Lux Home Page1e!',
             viewport_size: vps, driver: driver) do
